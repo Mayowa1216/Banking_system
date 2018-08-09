@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="payment1.css">
+</head>
+<body>
+
+<aside class = "left">
+			<nav>
+			<img src="log.jpg"/>
+			<a href="homepage.php" >Home</a>
+			<a href="accover.php">Account Overview</a>
+			<a href="showtransact.php" >View Statement</a>
+			<a href="payment.html" class="active">Utility Payment</a>
+			<a href="custreq.html" >Service Request</a>
+			<a href="loanapply.html" >Apply for loan</a>
+			<a href="loanrepay.php">Loan payment</a>
+			<a href="makefd.html">Make Fixed Deposit</a>
+		</nav>
+		</aside>
+		<section class="hello">
+<ul>
+  <li>For Electricity Bill payment enter account no:1076</li>
+  <li>For Water bill payment enter account no:7654<br></li>
+  <li>For Broadband bill payment enter account no:8543</li>
+  <li>For Gas bill payment enter account no:6120</li>
+</ul>
+	</section>
+<div class="login-page">
+  <div class="form">
+	<form  method="POST" id="form1" action="payment.php">
+      <input type="text" name="to" id="hello" placeholder="ENTER RECIPIENT ACCOUNT NUMBER"/>
+      <input type="text" name="amount" placeholder="ENTER AMOUNT"/>
+      <button type="submit" form="form1" value="Submit">PAY</button>
+      </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+
+<aside class = "left">
+			<nav>
+			<img src="log.jpg"/>
+			<a href="homepage.php" >Home</a>
+			<a href="accover.php">Account Overview</a>
+			<a href="showtransact.php" >View Statement</a>
+			<a href="payment.html" >Utility Payment</a>
+			<a href="custreq.html">Service Request</a>
+			<a href="loanapply.html" >Apply for loan</a>
+			<a href="loanrepay.php">Loan payment</a>
+			<a href="makefd.html" class="active">Make Fixed Deposit</a>
+		</nav>
+		</aside>
+<div class="login-page">
+  <div class="form">
+	<form  method="POST" id="form1" action="makefd.php">
+      
+      <input type="text" name="amount" placeholder="amount"/>
+      <input type="text" name="duration" placeholder="duration in years"/>
+      <button type="submit" form="form1" value="Submit">Submit</button>
+      </form>
+      </div>
+</body>
+</html>

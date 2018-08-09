@@ -1,0 +1,182 @@
+nav a{
+  text-decoration: none;
+  color: #D3D3D3;
+  background:rgba(0,0,0,0.1);
+  display:block;
+  border-radius: 7px;
+  /*color: #000000;*/
+  font-size: 15px;
+  margin: 1%;
+  padding: 20px;
+  /*background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png");
+  */
+}
+
+/*nav>a:hover{
+  color: #ffffff;
+}
+nav>a:active{
+  color:#8b9dc3;
+}*/
+nav a:hover{
+  background-color: #3b5998;
+}
+nav a:active{
+  background:#ffffff;
+}
+body {
+  display:block;
+  /*float: right;
+*/background:#cbe2c1;
+   background: -webkit-linear-gradient(to right, #293f50,   #8ee5ee);
+   background: -moz-linear-gradient(to right, #293f50, #8ee5ee);
+   background: linear-gradient(to right, #293f50, #8ee5ee);
+   text-align: center;
+  
+}
+nav {
+  display: inline-block;
+
+    background: #293f50; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);*/
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;   
+  position:right;
+  
+  float:left;
+  clear: left;
+  width: 300px;
+}
+h1{
+  display: inline-block;
+  float: right;
+  /*text-align: center;*/
+  /*margin:5%;*/
+ // margin-right: 16%;
+  /*padding :5%;
+  /*text-align: center;*/
+  color:    #ffffff;
+  font-size: 35px;
+  position:absolute;
+  right: 20%;
+
+}
+ .active {
+    background: #ffffff;
+    color: #2E8B57;
+}
+table {
+  position: absolute;
+  top: 20%;
+  right: 15%;
+}
+
+
+
+
+
+
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:20px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#293f50;
+  font-size:10px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:15px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}

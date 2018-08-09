@@ -1,0 +1,90 @@
+nav a{
+	text-decoration: none;
+	color: #D3D3D3;
+	background:rgba(0,0,0,0.1);
+	display:block;
+	border-radius: 7px;
+	/*color: #000000;*/
+	font-size: 15px;
+	margin: 1%;
+	padding: 20px;
+	/*background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-arrow-right-b-128.png");
+	*/
+}
+
+/*nav>a:hover{
+	color: #ffffff;
+}
+nav>a:active{
+	color:#8b9dc3;
+}*/
+nav a:hover{
+	background-color: #3b5998;
+}
+nav a:active{
+	background:#ffffff;
+}
+body {
+	display:block;
+	/*float: right;
+*/background:#cbe2c1;
+   background: -webkit-linear-gradient(to right, #293f50, 	#8ee5ee);
+   background: -moz-linear-gradient(to right, #293f50, #8ee5ee);
+   background: linear-gradient(to right, #293f50, #8ee5ee);
+   text-align: center;
+  
+}
+nav {
+	display: inline-block;
+
+    background: #293f50; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);*/
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;   
+  position:right;
+  
+  float:left;
+  clear: left;
+  width: 300px;
+}
+h1{
+	display: inline-block;
+	float: right;
+	/*text-align: center;*/
+	/*margin:5%;*/
+	margin-right: 16%;
+	/*padding :5%;
+	/*text-align: center;*/
+	color: 		#000000;
+	font-size: 35px;
+
+}
+ .active {
+    background: #ffffff;
+    color: #2E8B57;
+}
+h2{
+	font-size: 40px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top:200px;
+	right:500px;
+	color:#ffffff;
+	/*text-align: center;*/
+	/*margin:5%;*/
+	
+	}
+h3{
+	font-size: 40px;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top:250px;
+	right:300px;
+	color:#ffffff;
+}
